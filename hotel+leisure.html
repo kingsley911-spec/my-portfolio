@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://kit.fontawesome.com/c6f7c318c2.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="x-icon/images" href="image/touring.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <head>
+       <title>Travel + Reservation - Holidays | Environment | Local People</title>
+    <style type="text/css">
+
+
+      .nav{
+        background-color: #005e58;
+        color: white;
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .nav-content a{
+        float: left;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 900;
+        padding: 30px;
+      }
+      .nav-content a:hover{
+        background-color: lightgray;
+        text-decoration: overline;
+        margin: 10px;
+        font-size: 20px;
+      }
+      .header{
+        width: 100%;
+        height: 400px;
+        padding: 30px;
+      }
+      .rope{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+      }
+      .rope img{
+        border-radius: 20em;
+        text-align:center; 
+        display: flex; 
+        justify-content: space-between;
+        padding: 50px;
+      }
+      .images{
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+      }
+  .sub-head{
+      background-color: #ffffff;
+    text-align: center;
+    margin: 20px;
+  }
+  .head-2 img{
+    margin-top: 40px;
+    height: 200px;
+    border-radius: 10em;
+    margin-right: 10px;
+    padding: 20px;
+  }
+  .sub-head-2{
+      background-color: #ffffff;
+    text-align: center;
+    margin: 20px;
+  }
+  .head-3 img{
+    margin-top: 40px;
+    height: 200px;
+    border-radius: 10em;
+    margin-right: 10px;
+    padding: 20px;
+    }
+    .sub-head-3{
+    background-color: #ffffff;
+    text-align: center;
+    margin: 20px;
+  }
+  .head-4 img{
+    margin-top: 40px;
+    height: 200px;
+    border-radius: 10em;
+    margin-right: 10px;
+    padding: 20px;
+    }
+    .sub-head-4{
+      background-color: white;
+    text-align: center;
+    margin: 20px;
+  }
+  .bro img{
+    width: 60%;
+    height: 200px;
+  }
+  .sub-bro{
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
+  .bro-2 img{
+    padding: 20px;
+    height: 200px;
+  }
+  .sub-br0-2{
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
+  .bro-3 img{
+    height: 200px;
+  }
+  .sub-bro-3{
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
+  .bro-4 img{
+    height: 200px;
+  }
+  .sub-bro-4{
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
+  .bro-5 img{
+    height: 200px;
+  }
+  .sub-bro-5{
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
+  .bro-6 img{
+    height: 200px;
+  }
+  .sub-bro-6{
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
+      .call{
+        color: orangered;
+        font-family: sans-serif;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 60px;
+      }
+      .loan{
+        background-color: #e5e5e5;
+        width: 100%;
+        margin: 0px;
+      }
+      .loan-1{
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+        text-align: center;
+        margin: 0px;
+      }
+      .bodynav{
+        font-family: sans-serif;
+        text-align: center;
+        margin: 0px;
+        padding: 30px;
+      }
+      .duck{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+      }
+      .quotes{
+        background-color: #e5e5e5;
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+        padding: 20px;    
+      }
+      .help{
+        background-color: darkgray;
+        width: 100%;
+        padding: 20px;
+      }
+      .love-1{
+        margin: 10px;
+      }
+      .love-2{
+        margin: 10px;
+      }
+      .love-3{
+        margin: 10px;
+        padding: 50px;
+      }
+      .love-4{
+       margin: 10px;
+       padding: 50px;
+      }
+      .footer{
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+        width: 100%;
+        padding: 30px;
+      }
+      .sub-footer{
+        display: flex;
+        justify-content: space-between;
+      }
+      .footer img{
+        float: right;
+      }
+      .footer a{
+        color: white;
+        text-decoration: none;
+      }
+
+    </style>   
+  </head>
+  <body>
+
+
+            <div class="nav">
+                <div class="logo" style="font-family: sans-serif; font-size: 40px; padding: 10px; font-weight: 700;">
+                 <a href="hotel+leisure.html" style="text-decoration: none; color: white;"> TRAVEL +<br>RESERVATION </a>
+                </div>
+            <div class="nav-content">
+                <a href="Book+Vip.html"> BOOk VIP </a>
+                <a href="About+Us.html"> ABOUT US </a>
+                <a href="Contact+Us.html"> CONTACT US </a>
+              </div>
+              <div style="float:right; font-family: sans-serif; color: white; padding: 20px; font-size: 20px;">
+            <a href="wa.me/15632068827" style="color: white; text-decoration: none;"> +1 563 206 8827 </a><BR>
+           <li> Contact us after 9am </li>
+          </div>
+            </div>
+
+        <img src="image/kayaking.jpg" style="width: 100%; height: 700px;">
+
+        <div style="background-color: black; color: white; padding: 10px;">
+               <center> <H1 style="font-family: sans-serif; padding: 20px">Our holidays are more enjoyable because they do good</H1> </center>
+
+              <div class="content-body-content" style="display: flex; justify-content: space-around; margin: 20px">
+                <div class="country" style="color: white;">
+                  <select style="padding: 10px; border-radius: 1em;">
+<option value="(not selected)"> Select Country - optional </option>
+<option value="Afghanistan"> Afghanistan</option>
+<option value="Albania">Albania</option>
+<option value="Algeria">Algeria</option>
+<option value="Andorra">Andorra</option>
+<option value="Angola">Angola</option>
+<option value="Argentina">Argentina</option>
+<option value="Australia">Australia</option>
+<option value="Austria">Austria</option>
+<option value="Azerbaijan">Azerbaijan</option>
+<option value="Bahamas">Bahamas</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Barbados">Barbados</option>
+<option value="Belarus">Belarus</option>
+<option value="Belgium">Belgium</option>
+<option value="Benin">Benin</option>
+<option value="Bolivia">Bolivia</option>
+<option value="botswana">Botswana</option>
+<option value="Brazil">Brazil</option>
+<option value="Brunei">Brunei</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Burkina-faso">Burkina Faso</option>
+<option value="Burundi">Burundi</option>
+<option value="cabo-verde">Cabo Verde</option>
+<option value="Cambodia">Cambodia</option>
+<option value="Cameroon">Cameroon</option>
+<option value="Canada">Canada</option>
+<option value="chad">Chad</option>
+<option value="Chile">Chile</option>
+<option value="China">China</option>
+<option value="Colombia">Colombia</option>
+<option value="Comoros">Comoros</option>
+<option value="Democratic-republic-of-the-congo">Democratic Republic of the Congo</option>
+<option value="republic-of-the-congo">Republic of the Congo</option>
+<option value="Costa-rica">Costa Rica</option>
+<option value="cote d'Ivoire">Côte d'Ivoire</option>
+<option value="Croatia">Croatia</option>
+<option value="cuba">Cuba</option>
+<option value="Cyprus">Cyprus</option>
+<option value="Czechia">Czech Republic (Czechia)</option>
+<option value="Denmark">Denmark</option>
+<option value="Djibouti">Djibouti</option>
+<option value="Dominica">Dominica</option>
+<option value="Dominican-republic">Dominican Republic</option>
+<option value="Ecuador">Ecuador</option>
+<option value="Egypt">Egypt</option>
+<option value="el-salvador">El Salvador</option>
+<option value="Equatorial-guinea">Equatorial Guinea</option>
+<option value="Eritrea">Eritrea</option>
+<option value="Estonia">Estonia</option>
+<option value="Swaziland">Eswatini (Swaziland)</option>
+<option value="Ethiopia">Ethiopia</option>
+<option value="fiji">Fiji</option>
+<option value="finland">Finland</option>
+<option value="france">France</option>
+<option value="Gabon">Gabon</option>
+<option value="Gambia">Gambia</option>
+<option value="Georgia">Georgia</option>
+<option value="Germany">Germany</option>
+<option value="Ghana">Ghana</option>
+<option value="greece">Greece</option>
+<option value="Grenada">Grenada</option>
+<option value="Guatemala">Guatemala</option>
+<option value="Guinea">Guinea</option>
+<option value="Guinea-Bissau">Guinea-Bissau</option>
+<option value="Guyana">Guyana</option>
+<option value="Haiti">Haiti</option>
+<option value="Honduras">Honduras</option>
+<option value="Hungary">Hungary</option>
+<option value="Iceland">Iceland</option>
+<option value="India">India</option>
+<option value="Indonesia">Indonesia</option>
+<option value="Iran">Iran</option>
+<option value="Iraq">Iraq</option>
+<option value="Ireland">Ireland</option>
+<option value="Israel">Israel</option>
+<option value="Italy">Italy</option>
+<option value="Jamaica">Jamaica</option>
+<option value="Japan">Japan</option>
+<option value="Jordan">Jordan</option>
+<option value="Kazakhstan">Kazakhstan</option>
+<option value="Kenya">Kenya</option>
+<option value="Kiribati">Kiribati</option>
+<option value="North-korea">North Korea</option>
+<option value="south-korea">South Korea</option>
+<option value="Kuwait">Kuwait</option>
+<option value="Kyrgyzstan">Kyrgyzstan</option>
+<option value="Laos">Laos</option>
+<option value="Latvia">Latvia</option>
+<option value="Lebanon">Lebanon</option>
+<option value="Lesotho">Lesotho</option>
+<option value="Liberia">Liberia</option>
+<option value="Libya">Libya</option>
+<option value="Liechtenstein">Liechtenstein</option>
+<option value="Lithuania">Lithuania</option>
+<option value="Luxembourg">Luxembourg</option>
+<option value="Madagascar">Madagascar</option>
+<option value="Malawi">Malawi</option>
+<option value="Malaysia">Malaysia</option>
+<option value="Maldives">Maldives</option>
+<option value="mali">Mali</option>
+<option value="Malta">Malta</option>
+<option value="Marshall-islands">Marshall Islands</option>
+<option value="Mauritania">Mauritania</option>
+<option value="Mauritius">Mauritius</option>
+<option value="Mexico">Mexico</option>
+<option value="Micronesia">Micronesia</option>
+<option value="Moldova">Moldova</option>
+<option value="Monaco">Monaco</option>
+<option value="Mongolia">Mongolia</option>
+<option value="Montenegro">Montenegro</option>
+<option value="Morocco">Morocco</option>
+<option value="Mozambique">Mozambique</option>
+<option value="Myanmar">Myanmar (Burma)</option>
+<option value="Namibia">Namibia</option>
+<option value="Nauru">Nauru</option>
+<option value="Nepal">Nepal</option>
+<option value="Netherlands">Netherlands</option>
+<option value="new-zealand">New Zealand</option>
+<option value="Nicaragua">Nicaragua</option>
+<option value="Niger">Niger</option>
+<option value="Nigeria">Nigeria</option>
+<option value="north-macedonia">North Macedonia</option>
+<option value="Norway">Norway</option>
+<option value="Oman">Oman</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Palau">Palau</option>
+<option value="Panama">Panama</option>
+<option value="Papua-new-guinea">Papua New Guinea</option>
+<option value="Paraguay">Paraguay</option>
+<option value="peru">Peru</option>
+<option value="Philippines">Philippines</option>
+<option value="Poland">Poland</option>
+<option value="Portugal">Portugal</option>
+<option value="Qatar">Qatar</option>
+<option value="Romania">Romania</option>
+<option value="Russia">Russia</option>
+<option value="Rwanda">Rwanda</option>
+<option value="Saint-kitts-and-nevis">Saint Kitts and Nevis</option>
+<option value="Saint-lucia">Saint Lucia</option>
+<option value="Saint-vincent-and-the-grenadines">Saint Vincent and the Grenadines</option>
+<option value="Samoa">Samoa</option>
+<option value="san-marino">San Marino</option>
+<option value="sao-tome-and-principe">São Tomé and Príncipe</option>
+<option value="Saudi-arabia">Saudi Arabia</option>
+<option value="Senegal">Senegal</option>
+<option value="Serbia">Serbia</option>
+<option value="Seychelles">Seychelles</option>
+<option value="Sierra-leone">Sierra Leone</option>
+<option value="Singapore">Singapore</option>
+<option value="Slovakia">Slovakia</option>
+<option value="Slovenia">Slovenia</option>
+<option value="Solomon-islands">Solomon Islands</option>
+<option value="Somalia">Somalia</option>
+<option value="South-africa">South Africa</option>
+<option value="South-sudan">South Sudan</option>
+<option value="Spain">Spain</option>
+<option value="Sri-lanka">Sri Lanka</option>
+<option value="Sudan">Sudan</option>
+<option value="Suriname">Suriname</option>
+<option value="Sweden">Sweden</option>
+<option value="Switzerland">Switzerland</option>
+<option value="Syria">Syria</option>
+<option value="Taiwan">Taiwan</option>
+<option value="Tajikistan">Tajikistan</option>
+<option value="Tanzania">Tanzania</option>
+<option value="Thailand">Thailand</option>
+<option value="Timor-Leste">Timor-Leste</option>
+<option value="Togo">Togo</option>
+<option value="Tonga">Tonga</option>
+<option value="Trinidad-and-tobago">Trinidad and Tobago</option>
+<option value="Tunisia">Tunisia</option>
+<option value="Turkey">Turkey</option>
+<option value="Turkmenistan">Turkmenistan</option>
+<option value="Tuvalu">Tuvalu</option>
+<option value="Uganda">Uganda</option>
+<option value="Ukraine">Ukraine</option>
+<option value="united-arab-emirates">United Arab Emirates</option>
+<option value="United-kingdom">United Kingdom</option>
+<option value="United-states">United States</option>
+<option value="uruguay">Uruguay</option>
+<option value="Uzbekistan">Uzbekistan</option>
+<option value="Vanuatu">Vanuatu</option>
+<option value="Vatican-city">Vatican City</option>
+<option value="Venezuela">Venezuela</option>
+<option value="Vietnam">Vietnam</option>
+<option value="Yemen">Yemen</option>
+<option value="Zambia">Zambia</option>
+<option value="Zimbabwe">Zimbabwe</option>
+                  </select>
+                </div>
+
+                <div class="date">
+                      <div>
+                <input type="date" id="checkin" placeholder="Choose Date" name="checkin" required style="border-radius: 1em; padding: 10px;">
+                      </div>
+                    </div>
+                       
+                    <div class="rob">
+                      <select style="padding: 10px; border-radius: 1em">
+                        <option value="0">Duration of Stay</option>
+                        <option value="7">+/-7 days</option>
+                        <option value="14">+/-14 days</option>
+                        <option value="21">+/-21 days</option>
+                        <option value="0">Exact day/(s)</option>
+                      </select>
+                    </div>
+
+
+                    <div class="holiday">
+                    <select required style="padding: 10px; border-radius: 1em">
+                    <option value="0"> Holiday types - optional </option>
+                    <option value="4*1480*accessible"> Accessible </option>
+                    <option value="4*833*accommodation-only"> Accommodation only </option>
+                    <option value="4*832*adventure"> Adventure </option>
+                    <option value="4*830*beach"> Beach </option>
+                    <option value="4*835*budget-travel"> Budget </option>
+                    <option value="4*829*cultural-tours"> Cultural </option>
+                    <option value="4*849*cycling"> Cycling </option>
+                    <option value="4*831*family"> Family </option>
+                    <option value="4*855*flight-free"> Flight free </option>
+                    <option value="4*842*on-ideas"> Honeymoon ideas </option>
+                    <option value="4*851*late-availability"> Last minute </option>
+                    <option value="4*837*locally-run"> Locally run </option>
+                    <option value="4*844*luxury-travel"> Luxury </option>
+                    <option value="4*857*multi-activity-holidays"> Multi activity </option>
+                    <option value="4*847*overland-tours"> Overland </option>
+                    <option value="4*1376*railway"> Rail </option>
+                    <option value="4*828*safaris"> Safaris </option>
+                    <option value="4*861*sailing"> Sailing </option>
+                    <option value="4*840*self-drive-and-fly-drive"> Self drive & fly drive </option>
+                    <option value="4*843*short-breaks"> Short break </option>
+                    <option value="4*846*small-group"> Small group </option>
+                    <option value="4*1220*small-ship-cruising/tours"> Small ship cruising </option>
+                    <option value="4*1575*solo"> Solo </option>
+                    <option value="4*841*special-interest"> Special interest </option>
+                    <option value="4*854*special-offer"> Special offer </option>
+                    <option value="4*848*tailor-made"> Tailor made </option>
+                    <option value="4*860*unusual/tours"> Unusual </option>
+                    <option value="4*1532*vegan-vegetarian"> Vegan & vegetarian </option>
+                    <option value="4*836*volunteer-travel"> Volunteer travel </option>
+                    <option value="4*838*walking"> Walking </option>
+                    <option value="4*1201*wellness"> Wellness </option>
+                    <option value="4*845*wildlife"> Wildlife </option>
+                    <option value="4*839*winter"> Winter </option>
+                  </select>
+                </div>
+                <a href="wa.me/15632068827"><img src="image/button-send.gif" alt="send my enquiry"></a>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+          <div class="holiday-content" style="background-color: darkgray; padding: 20px;">
+                 <center>
+                  <h1 class="holiday-header" style="color: black;">Holidays</h1>
+                </center>
+
+                <div class="holiday-1" style="display: flex; justify-content: space-between; margin: 10px">
+
+                   <div style="background-color: white; align-content: center; margin: 10px">
+                        <div style="text-align: center; margin-bottom: 10px;">
+                          <img src="image/sri lanka image.jpg" alt="sri lanka">
+                        <h3>
+                          <a>Sri Lanka highlights tour</a>
+                        </h3>
+                    The time for Sri Lanka <br>is now with departures starting this month
+                  </div>
+                </div>
+                       
+                          
+
+                      <div style="background-color: white; align-content: center; margin: 10px;">
+                        <div style="align-content: center; margin-bottom: 10px;">
+                          <img src="image/atlas mountain.jpg" alt="Atlas Mountains trekking">
+                            <center>
+                        <h3>
+                          <a>Atlas Mountains trekking</a>
+                        </h3>
+                          Hike with local mountain guides <BR> and stay in an award-winning kasbah in Morocco
+                        </center>
+                        </div>
+                        </div>
+                        
+
+                  
+                          
+                      <div style="background-color: white; margin: 10px; align-content: center;">
+                        <div style="text-align: center; margin-bottom: 10px">
+                          <img src="image/cambodia adventure.jpg" alt="Cambodia adventure">
+                        <h3>
+                          <a>Cambodia adventure</a>
+                        </h3>
+                          Thinking of Southeast Asia?<BR> Don't miss the wonders of Angkor Wat
+                      </div>
+                    </div>
+                  </div>
+
+                          <div style="display: flex; justify-content: space-between; margin: 10px">
+
+                      <div style="background-color: white; margin: 10px">
+                        <div style="text-align: center; margin-bottom: 10px">
+                          <img src="image/botswana falls.jpg" alt="Botswana &amp; Victoria Falls">
+                        <h3>
+                          <a>Botswana &amp; Victoria Falls</a>
+                        </h3>
+                         Experience the adventure of walking,<BR> 4x4 and canoe safaris led by expert guides
+                        </div>
+                      </div>
+                      
+
+                          
+
+                           <div style="background-color: white; margin: 10px">
+                        <div style="text-align: center; margin-bottom: 10px">
+                          <img src="image/whale watching.jpg" alt="Azores whale watching">
+                        <h3>
+                          <a>Azores whale watching</a>
+                        </h3>
+                          Book now before everyone else <BR> does, it's blue whale season starts in April!
+                        </div>
+                      </div>
+                       
+
+                          
+
+                      <div style="background-color: white; margin: 10px;">
+                        <div style="text-align: center; margin-bottom: 10px">
+                          <img src="image/cycling today.jpg" alt="Rajasthan cycling holiday">
+                          <h3>
+                          <a>Rajasthan cycling holiday</a>
+                        </h3>
+                          City streets, country roads,<BR> plus time for the Taj Mahal  and tiger tracking too
+                        </div>
+                      </div>
+                    </div>
+
+                        <div style="display: flex; justify-content: space-between; margin: 10px;">
+
+                             <div style="background-color: white; margin: 10px;">
+                        <div style="text-align: center; margin-bottom: 10px">
+                          <img src="image/homepage-solo-holidays.jpg" alt="Inspiration for solo travellers">
+                        <h3>
+                          <a>Inspiration for solo travellers</a>
+                        </h3>
+                          Browse our sociable small <BR>group tours it's ideal for solo travellers
+                        </div>
+                      </div>
+                  
+
+                          
+
+                      <div style="background-color: white; margin: 10px;">
+                        <div style="text-align: center; margin-bottom: 10px">
+                          <img src="image/holidays-walking.jpg" alt="Walking holidays">
+                        <h3>
+                          <a>Walking holidays</a>
+                        </h3>
+                          Hundreds of global walking holidays<BR> with self guided and small group options available
+                        </div>
+                      </div>
+                      
+
+                          
+
+                      <div style="background-color: white; margin: 10px;">
+                        <div style="text-align: center; margin-bottom: 10px;">
+                          <img class="img-responsive" src="image/holidays-costa-rica.jpg" alt="Spotlight on: Costa Rica">
+                        <h3>
+                          <a>Spotlight on: Costa Rica</a>
+                        </h3>
+                          Volcano-view hikes, turtle <BR>beaches, and conservation-supporting lodges
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+            <div style="background-color: white; margin: 10px; font-family: sans-serif;">
+                   <center>
+                 <h2 style="word-spacing: 5px; font-size: 40px; color: orangered;"> Speak to a member of our Travel Team now <br> to start planning your holiday... </h2>
+                   </center>
+           
+                <div class="call">
+                  <a href="wa.me/15632068827" style="color: orangered; text-decoration: none;"> +1 563 206 8827 </a><br><small><li> Contact us today </li></small>
+                 </div>
+
+                     
+                   <div style="display: flex; justify-content: space-evenly; padding: 30px;">
+                    <div>
+                    <img src="image/travel-team-1.jpg" alt="Travel team member: Edward" style="border-radius: 2em;">
+                   <h4> Edward</h4>
+                  </div>
+                    
+
+                    <div>
+                      <img src="image/travel-team-2.jpg" alt="Travel team member: Gregory" style="border-radius: 2em">
+                      <h4>Alice</h4>
+                  </div>
+                     
+
+                        <div>
+                          <img src="image/travel-team-3.jpg" alt="Travel team member: Connor" style="border-radius: 2em">
+                       <H4>Connor</H4>
+                     </div>
+            
+                      
+                        <div>
+                          <img src="image/travel-team-4.jpg" alt="Travel team member: Michael" style="border-radius: 2em">
+                     <h4>Michael</h4>
+                   </div>
+                </div>
+               </div>
+             
+          
+
+                
+             <div class="loan" style="padding: 10px;">
+                <center>
+                  <h2>Discover</h2>
+                </center>
+
+                  <div class="olive" style="display: flex; justify-content: space-around;">
+                    <div style="margin: 10px;">
+                      <div>
+                          <img src="image/about-us-in-60-seconds.jpg" alt="about us in 60 seconds">
+                        <h3> <a>About us in 60 seconds</a> </h3>
+                        <div>
+                          We believe that holidays can do good,<BR> and that when
+                          they do, you get the best experience
+                        </div>
+                      </div>
+                    </div>
+                     
+                      
+                      <div style="margin: 10px;">
+                        <div>
+                        <img src="Image/what-is-responsible-travel.jpg" alt="What is Travel + Reservations?">
+                          <h3><a>What is Travel + Reservation?</a></h3>
+                        <div>
+                          Travel + Reservation is a win: win for you,<BR> local places
+                          and communities
+                        </div>
+                      </div>
+                    </div>
+                    
+                         
+                      <div style="margin: 10px">
+                        <div>
+                         <img src="Image/discover-customer-reviews.jpg" alt="Reviews">
+                          <h3><a>Reviews</a></h3>
+                        <div>
+                          Our holidays are brilliant. Don't just take our word
+                          for it,<BR> read what our customers have to say
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="olive" style="display: flex; justify-content: space-around; padding-top: 30px;">
+                 <div style="margin: 10px">
+                 <div>
+                              <img src="Image/meet-our-founder.jpg" alt="Meet our founder, Justin">
+                          <h3><a>Meet our founder, Justin</a></h3>
+                        <div>
+                          Our planet has long been a source of wonder that <BR>has
+                          fuelled my curiosity and activism
+                        </div>
+                      </div>
+                    </div>
+                
+                      
+                        <div style="margin: 10px">
+                        <div>  
+                          <img src="image/curb-your-carbon.jpg" alt="Curb your carbon">
+                          <h3><a>Curb your carbon</a></h3>
+                        <div>
+                          The 1-2-3 of reducing your carbon emissions
+                        </div>
+                      </div>
+                    </div>
+              
+                          
+                      <div style="margin: 10px">
+                        <div>
+                          <img src="image/dolomites-winter.jpg" alt="Dolomites winter holidays">
+                          <h3><a>Dolomites winter holidays</a></h3>
+                        <div>
+                          Read about cross country skiing, walking and<BR>
+                          snowshoeing on winter holidays in the Dolomites
+                        </div>
+                       </div>
+                     </div>
+                   </div>
+               </div>
+              
+                  
+ 
+
+              
+                  <center>
+                  <h1 style="width: 100%"><a>Travel + Reservation</a></h1>
+                  <img src="image/win-travel-works.svg" alt="Local people who benefit from your holiday share more of their lives and culture - that's the win win of Travel + Reservations" title="Local people who benefit from your holiday share more of their lives and culture - that's the win win of Travel + Reservations">
+                </center>
+         
+
+                 
+             <div class="reviews" style="width: 100%;">
+                <center> <h2> Reviews </h2> </center>
+
+                <center>
+                  Over 12,000 reviews to help you choose your next adventure.
+                  95% of the reviews we've received this year were rated 4 or 5
+                  stars. You can trust Travel + Reservations reviews because, unlike
+                  many other schemes, reviews can only be written by people who
+                  have been on our holidays:
+                </center>
+
+                  <div style="padding: 20px">
+                  <span class="stars" title="5 star rating">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span class="star-text hidden-xs">5 STAR</span>
+                  </span>
+                 <div class="progress mt-5 mb-5" style="width: 500px; height: 32px; text-align: center; color: black; font-size: 20px;">
+  <div class="Progress-bar-striped bg-warning" style="width: 75%">
+    75% </div>
+</div>
+
+
+             
+                  <span class="stars" title="4 star rating">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span class="star-text hidden-xs">4 STAR</span>
+                  </span>
+                  <div class="progress mt-5 mb-5" style="width: 500px; height: 32px; text-align: center; color: black; font-size: 20px;">
+  <div class="Progress-bar-striped bg-warning" style="width: 25%">
+    25% </div>
+</div>
+ 
+
+                  <span class="stars" title="3 star rating">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span class="star-text hidden-xs">3 STAR</span>
+                  </span>
+                  <div class="progress mt-5 mb-5" style="width: 500px; height: 32px; text-align: center; color: black; font-size: 20px;">
+  <div class="Progress-bar-striped bg-warning" style="width: 4%">
+    4% </div>
+</div>
+
+
+                  <span class="stars" title="2 star rating">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span class="star-text hidden-xs">2 STAR</span>
+                  </span>
+                  <div class="progress mt-5 mb-5" style="width: 500px; height: 32px; text-align: center; color: black; font-size: 20px;">
+  <div class="Progress-bar-striped bg-warning" style="width: 1%">
+    1% </div>
+</div>
+
+
+
+                  <span class="stars" title="1 star rating">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span class="star-text hidden-xs">1 STAR</span>
+                  </span>
+                  <div class="progress mt-5 mb-5" style="width: 500px; height: 32px; text-align: center; color: black; font-size: 20px;">
+  <div class="Progress-bar-striped bg-warning" style="width: 0%">
+    0% </div>
+</div>
+                 
+           
+            <div class="quotes">
+                     <center>
+                <div class="review-stars">
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                  &#8220;The warmth of reception was beautiful, in the home
+                  stays and also serendipitously, the tea shared as we were
+                  invited in to shelter in someone's house in a downpour.&#8221;
+                <h3> Ross Carne </h3>
+                  Vietnam Northern Highlands tour 
+                 </center>
+             
+
+
+                   <center>
+                <div class="review-stars">
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                  &#8220;I painted in olive groves, on the sea coast, in front
+                  of ancient churches... Our hosts were wonderful and like
+                  family. One of the best trips of my life.&#8221;
+                <h3> Amy Welch </h3>
+                  Walking and painting holiday in Crete
+                   </Center>
+
+
+             
+                 <center>
+                <div class="review-stars">
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                  &#8220;We were a blessed group and had the most wonderful game
+                  viewing you can imagine, due in no small part to the skill and
+                  instinct of our guides. We cannot praise them highly
+                  enough.&#8221; <h3> Louise Siraj </h3>
+                  Botswana camping safari
+               </center>
+          </div>
+       
+
+
+
+            <div class="help">
+                <center>
+                  <h1>Why book with Travel + Reservation </h1>
+                </center>
+                  
+              <div class="olive" style="display: flex; justify-content: space-between; margin: 10px">
+                 <div class="love-1" style="background-color: lightgray;">
+                 <div class="sub-help1" style="padding: 10px">
+                <img src="image/better-holidays.svg" alt="Better holidays" title="Better holidays">
+                 <center>  <h2>Better holidays</h2>
+                    Since 2001 we've led the way in Travel + Reservations. <BR>Our
+                    holidays are more enjoyable because they do good </center>
+                  </div>
+                </div>
+      
+                    <div class="love-2" style="background-color: lightgray;">
+                    <div class="sub-help2" style="padding: 10px">
+                    <img src="image/chat-with-travel-experts.svg" alt="Chat with travel experts" title="Chat with travel experts">
+                   <center> <h2>Chat with travel experts</h2>
+                    Our Travel Team knows our 6,000 trips inside and out.<BR> Talk
+                    with us to find the one that is right for you. </center>
+                  </div>
+                </div>
+    
+          
+                    <div class="love-3" style="background-color: lightgray;">
+                    <div class="sub-help3" style="padding: 20px">
+                      <img src="image/trip-for-a-trip.svg" alt="Trip for a trip scheme" title="Trip for a trip scheme"><BR><BR><BR><BR><BR><BR>
+                 <center> <h2>Trip for a Trip</h2>
+                    Send a disadvantaged child <BR>on a day trip with every holiday you book </center>
+                  </div>
+                </div>
+       
+                   
+                   <div class="love-4" style="background-color: lightgray;">
+                   <div class="sub-help4" style="padding: 20px"> 
+                    <img src="image/great-value.svg" alt="Great value" title="Great value"><BR><BR><BR><BR>
+                 <CEnter> <h2>Great value</h2>
+                    Discounts off your next trip <BR>and a free gift with every
+                    holiday </center>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+<div style=" text-align:center; display: flex; justify-content: space-between; padding: 50px; margin: 10px;" >
+
+  <div>
+   <h4><I> "The first place to look for environmentally friendly holidays" </I></h4>
+    <img src="image/guardian image.svg" style=" max-width:190px" alt="The guardian logo">
+    </div>
+
+
+  <div>
+  <h4><I>  "Great source of travel ideas by a spokesperson for responsible tourism" </I></h4>
+    <img src="image/new-york-times image.svg" style=" max-width:400px;" alt="The New York Times logo">
+  </div>
+
+  <div>
+   <h4><i> "The best website devoted to environmentally friendly travel across the world" </i></h4>
+  <img src="image/daily-mail image.svg" style=" max-width:300px;" alt="The Daily Mail logo">
+  </div>
+
+</div>
+
+
+    <div class="footer">
+      <div class="sub-footer">
+        <div class="column-1">
+        <h2 style="border-bottom: 2px solid; padding-bottom: 20px;"> About Us</h2> 
+                <a href="about-us.html">About us</a>
+            </div>
+
+            <div class="column-2">
+              <h2 style="border-bottom: 2px solid; padding-bottom: 20px;">Your holiday</h2>
+                <a href="contact-us.html">Contact us</a><br><br>
+                <a href="financial-protection.html">Financial protection</a>
+            </div>
+
+            <div class="column-3">
+              <h2 style="border-bottom: 2px solid; padding-bottom: 20px;">Read more</h2>
+              <a href="our-terms-and-conditions.html">Terms and conditions</a><br><br>
+              <a href="privacy-policy.html">Privacy policy</a><br><br>
+              <a href="refund-policy.html"> Refund policy </a>
+            </div><br>
+
+            <img src="image/earthrise-image.png" title="Earth rise" alt="Earth rise">
+          </div>
+             
+
+
+            Our holidays are more enjoyable because they do good. <br> <br>Pioneering Travel + Reservation since 2001 <br><BR>
+            <a style="float:right;" class="top-link" id="top-link" href="#top" title="Back to the top"><i class="fa fa-angle-double-up"></i><span class="hidden">Back to the top</span></a>
+    </div>
+   <script type="text/javascript">
+     alert('Welcome to Travel + Reservation');
+   </script>
+  </body>
+
+</html>
